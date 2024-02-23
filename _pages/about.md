@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "M's Home Page"
+title: "Wentao Mo (莫文韬)"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Wentao Mo (莫文韬)
-===
 
 A second-year postgraduate student at Peking University (PKU).
 
