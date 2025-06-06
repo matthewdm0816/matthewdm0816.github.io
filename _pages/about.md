@@ -22,3 +22,7 @@ My research interests include **multi-modal learning**, **computer vision** and 
   AAAI Conference on Artificial Intelligence (**AAAI**), 2024. <br/>
   [[pdf]](https://drive.google.com/file/d/1U_r-bh895TxMOKidFKW-byEaa39Mq4fi/view?usp=sharing) [[code]](https://github.com/matthewdm0816/BridgeQA) [[project]](https://matthewdm0816.github.io/BridgeQA-project/)
 
+- **3D Vision and Language Pretraining with Large-Scale Synthetic Data**. <br/>
+  Dejie Yang, Zhu Xu, **Wentao Mo**, Qingchao Chen, Siyuan Huang, Yang Liu. <br/>
+  Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (**IJCAI**), 2024. <br/>
+  [[pdf]](https://arxiv.org/pdf/2407.06084) [[code]](https://github.com/idejie/3DSyn)
