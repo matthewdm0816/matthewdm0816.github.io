@@ -26,3 +26,8 @@ My research interests include **multi-modal learning**, **computer vision** and 
   Dejie Yang, Zhu Xu, **Wentao Mo**, Qingchao Chen, Siyuan Huang, Yang Liu. <br/>
   Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (**IJCAI**), 2024. <br/>
   [[pdf]](https://arxiv.org/pdf/2407.06084) [[code]](https://github.com/idejie/3DSyn)
+
+- **Advancing 3D Scene Understanding with MV-ScanQA Multi-View Reasoning Evaluation and TripAlign Pre-training Dataset**. <br/>
+  **Wentao Mo**, Qingchao Chen, Yuxin Peng, Siyuan Huang, Yang Liu. <br/>
+  Proceedings of the 33rd ACM International Conference on Multimedia (**MM'**), 2025. <br/>
+  [[pdf]](https://arxiv.org/pdf/2508.11058) [[code]](https://github.com/matthewdm0816/MVScanQA) [[project]](https://matthewdm0816.github.io/tripalign-mvscanqa/)
