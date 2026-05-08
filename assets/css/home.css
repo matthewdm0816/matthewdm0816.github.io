@@ -1,7 +1,9 @@
 .home-shell {
   color: #14212a;
   background: #f8f4ed;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", "Aptos", "Microsoft YaHei UI", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .home-shell a {
@@ -38,9 +40,11 @@
 .home-hero h1 {
   margin: 0;
   color: #10202c;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 4rem;
   line-height: 1;
   letter-spacing: 0;
+  font-weight: 700;
 }
 
 .home-lede {
@@ -140,9 +144,11 @@
 .home-contact h2 {
   margin: 0;
   color: #10202c;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 2rem;
   line-height: 1.18;
   letter-spacing: 0;
+  font-weight: 700;
 }
 
 .home-focus-grid {
@@ -166,7 +172,9 @@
 .publication-card h3 {
   margin: 0;
   color: #10202c;
+  font-family: Georgia, "Times New Roman", serif;
   letter-spacing: 0;
+  font-weight: 700;
 }
 
 .home-focus-grid p {
@@ -186,6 +194,12 @@
   column-gap: 30px;
   row-gap: 12px;
   padding: 26px;
+}
+
+.publication-card--featured {
+  border-color: #c9795d;
+  background: #fff8ed;
+  box-shadow: inset 4px 0 0 #cc5a43;
 }
 
 .publication-card__meta {
@@ -212,7 +226,8 @@
   gap: 10px;
 }
 
-.publication-card__links a {
+.publication-card__links a,
+.publication-card__links span {
   display: inline-flex;
   align-items: center;
   min-height: 34px;
@@ -224,6 +239,11 @@
   font-size: 0.88rem;
   font-weight: 700;
   text-decoration: none;
+}
+
+.publication-card__links span {
+  color: #7a6c5b;
+  cursor: default;
 }
 
 .publication-card__links a:hover {

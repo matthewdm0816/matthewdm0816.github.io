@@ -32,6 +32,7 @@ redirect_from:
         <a class="home-button home-button--primary" href="#publications">View publications</a>
         <a class="home-button" href="mailto:{{ site.author.email }}">Email</a>
         <a class="home-button" href="https://github.com/{{ site.author.github }}">GitHub</a>
+        <a class="home-button" href="https://x.com/Kagurazaka_L">X</a>
       </div>
     </div>
 
@@ -76,6 +77,18 @@ redirect_from:
     </div>
 
     <div class="publication-list">
+      <article class="publication-card publication-card--featured">
+        <div class="publication-card__meta">ICML / 2026 Poster</div>
+        <h3>Distilling Neuro-Symbolic Programs into 3D Multi-modal LLMs</h3>
+        <p><strong>Wentao Mo</strong>, Yang Liu</p>
+        <div class="publication-card__links">
+          <span>PDF soon</span>
+          <span>Code soon</span>
+          <span>arXiv soon</span>
+          <span>Project soon</span>
+        </div>
+      </article>
+
       <article class="publication-card">
         <div class="publication-card__meta">ACM Multimedia / 2025</div>
         <h3>Advancing 3D Scene Understanding with MV-ScanQA Multi-View Reasoning Evaluation and TripAlign Pre-training Dataset</h3>
@@ -118,6 +131,7 @@ redirect_from:
     <div class="home-contact__links">
       <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
       <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
+      <a href="https://x.com/Kagurazaka_L">x.com/Kagurazaka_L</a>
     </div>
   </section>
 </main>
