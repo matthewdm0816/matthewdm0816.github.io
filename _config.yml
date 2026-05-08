@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "Wentao Mo"
 title_separator          : "-"
-name                     : &name "Wentao Mo (莫文韬)"
-description              : &description "personal description"
+name                     : &name "Wentao Mo"
+description              : &description "PhD student at Peking University working on multimodal learning, computer vision, and embodied AI."
 url                      : https://matthewdm0816.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "matthewdm0816/matthewdm0816.github.io"
@@ -22,9 +22,9 @@ repository               : "matthewdm0816/matthewdm0816.github.io"
 author:
   # Biographic information
   avatar           : "https://avatars.githubusercontent.com/u/2143312"
-  name             : "Mo Wentao"
+  name             : "Wentao Mo"
   pronouns         : # example: "she/her"  
-  bio              : "Postgraduate student at Peking University"
+  bio              : "PhD student at Peking University"
   location         : "Beijing"
   employer         : "Peking University"
   uri              : # URL
