@@ -1,14 +1,7 @@
 [
   {
     "label": "Jekyll: serve site",
-    "command": "powershell",
-    "args": [
-      "-NoProfile",
-      "-ExecutionPolicy",
-      "Bypass",
-      "-Command",
-      "$env:Path = 'C:\\Ruby33-x64\\bin;' + $env:Path; bundle exec jekyll serve --livereload --force_polling --host 127.0.0.1 --port 4000"
-    ],
+    "command": "$env:Path = \"C:\\Ruby33-x64\\bin;\" + $env:Path; & \"C:\\Ruby33-x64\\bin\\ruby.exe\" -S bundle exec jekyll serve --livereload --force_polling --host 127.0.0.1 --port 4000",
     "cwd": "$ZED_WORKTREE_ROOT",
     "use_new_terminal": true,
     "allow_concurrent_runs": false,
