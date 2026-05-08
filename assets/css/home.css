@@ -203,9 +203,33 @@
 }
 
 .publication-card__meta {
+  align-self: start;
+  display: inline-grid;
+  gap: 4px;
   grid-row: span 3;
+  justify-items: start;
+}
+
+.publication-card__venue,
+.publication-card__year {
+  border-radius: 8px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.publication-card__venue {
+  padding: 8px 10px;
+  background: #16313c;
+  color: #fff8ed;
+  font-size: 0.82rem;
+}
+
+.publication-card__year {
+  padding: 6px 10px;
+  border: 1px solid #d9ccb8;
+  background: #f7efe2;
   color: #9b4d37;
-  font-size: 0.9rem;
+  font-size: 0.78rem;
   font-weight: 700;
 }
 

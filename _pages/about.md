@@ -78,7 +78,10 @@ redirect_from:
 
     <div class="publication-list">
       <article class="publication-card publication-card--featured">
-        <div class="publication-card__meta">ICML / 2026 Poster</div>
+        <div class="publication-card__meta">
+          <span class="publication-card__venue">ICML</span>
+          <span class="publication-card__year">2026</span>
+        </div>
         <h3>Distilling Neuro-Symbolic Programs into 3D Multi-modal LLMs</h3>
         <p><strong>Wentao Mo</strong>, Yang Liu</p>
         <div class="publication-card__links">
@@ -90,7 +93,10 @@ redirect_from:
       </article>
 
       <article class="publication-card">
-        <div class="publication-card__meta">ACM Multimedia / 2025</div>
+        <div class="publication-card__meta">
+          <span class="publication-card__venue">ACM Multimedia</span>
+          <span class="publication-card__year">2025</span>
+        </div>
         <h3>Advancing 3D Scene Understanding with MV-ScanQA Multi-View Reasoning Evaluation and TripAlign Pre-training Dataset</h3>
         <p><strong>Wentao Mo</strong>, Qingchao Chen, Yuxin Peng, Siyuan Huang, Yang Liu</p>
         <div class="publication-card__links">
@@ -101,7 +107,10 @@ redirect_from:
       </article>
 
       <article class="publication-card">
-        <div class="publication-card__meta">AAAI / 2024</div>
+        <div class="publication-card__meta">
+          <span class="publication-card__venue">AAAI</span>
+          <span class="publication-card__year">2024</span>
+        </div>
         <h3>Bridging the Gap between 2D and 3D Visual Question Answering: A Fusion Approach for 3D VQA</h3>
         <p><strong>Wentao Mo</strong>, Yang Liu</p>
         <div class="publication-card__links">
@@ -112,7 +121,10 @@ redirect_from:
       </article>
 
       <article class="publication-card">
-        <div class="publication-card__meta">IJCAI / 2024</div>
+        <div class="publication-card__meta">
+          <span class="publication-card__venue">IJCAI</span>
+          <span class="publication-card__year">2024</span>
+        </div>
         <h3>3D Vision and Language Pretraining with Large-Scale Synthetic Data</h3>
         <p>Dejie Yang, Zhu Xu, <strong>Wentao Mo</strong>, Qingchao Chen, Siyuan Huang, Yang Liu</p>
         <div class="publication-card__links">
