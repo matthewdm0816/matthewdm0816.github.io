@@ -141,9 +141,18 @@ redirect_from:
       <h2>Open to research conversations and collaboration.</h2>
     </div>
     <div class="home-contact__links">
-      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-      <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
-      <a href="https://x.com/Kagurazaka_L">x.com/Kagurazaka_L</a>
+      <a href="mailto:{{ site.author.email }}">
+        <span class="home-contact__icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+        <span>{{ site.author.email }}</span>
+      </a>
+      <a href="https://github.com/{{ site.author.github }}">
+        <span class="home-contact__icon"><i class="fab fa-github" aria-hidden="true"></i></span>
+        <span>github.com/{{ site.author.github }}</span>
+      </a>
+      <a href="https://x.com/Kagurazaka_L">
+        <span class="home-contact__icon"><i class="fab fa-x-twitter" aria-hidden="true"></i></span>
+        <span>x.com/Kagurazaka_L</span>
+      </a>
     </div>
   </section>
 </main>
