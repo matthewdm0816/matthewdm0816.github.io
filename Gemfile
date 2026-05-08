@@ -16,7 +16,11 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Optional Windows file watcher acceleration. The old wdm native extension
+# does not build reliably on modern RubyInstaller releases; Jekyll can still
+# serve locally without it.
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
