@@ -7,3 +7,7 @@ Gemfile.lock
 # Ignore local Bundler state and installed gems
 .bundle/
 vendor/bundle/
+
+.claude
+
+ECCV*
