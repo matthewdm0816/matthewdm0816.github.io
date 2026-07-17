@@ -46,7 +46,7 @@ redirect_from:
       <img src="{{ site.author.avatar }}" alt="Portrait of Wentao Mo" loading="eager">
       <div>
         <strong>Research Focus</strong>
-        <span>3D vision, language grounding, and multimodal reasoning</span>
+        <span>3D vision-language learning, pre-training and reasoning</span>
       </div>
       <div>
         <strong>Based in</strong>
