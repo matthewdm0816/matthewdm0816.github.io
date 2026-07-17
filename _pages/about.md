@@ -112,10 +112,10 @@ redirect_from:
         <h3>Distilling Neuro-Symbolic Programs into 3D Multi-modal LLMs</h3>
         <p><strong>Wentao Mo</strong>, Yang Liu</p>
         <div class="publication-card__links">
-          <span>PDF soon</span>
-          <span>Code soon</span>
-          <span>arXiv soon</span>
-          <span>Project soon</span>
+          <a href="https://matthewdm0816.github.io/Apeiria_Open/assets/paper.pdf">PDF</a>
+          <a href="https://github.com/oceanflowlab/APEIRIA">Code</a>
+          <a href="https://huggingface.co/kmichiru/OpenApeiria">Model</a>
+          <a href="https://matthewdm0816.github.io/Apeiria_Open/">Project</a>
         </div>
       </article>
 
