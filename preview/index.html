@@ -1,17 +1,13 @@
----
-layout: default
-permalink: /
-title: "Wentao Mo"
-excerpt: "PhD student at Peking University working on multimodal learning, computer vision, and embodied AI."
-homepage: true
-author_profile: false
-redirect_from:
-  - /about/
-  - /about.html
----
-
-{% include base_path %}
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wentao Mo</title>
+<link rel="stylesheet" href="/assets/css/home.css">
+<style>html,body{margin:0;padding:0;background:#f8f4ed}</style>
+</head>
+<body>
 <main id="home" class="home-shell">
   <section class="home-hero" aria-label="Profile introduction">
     <div class="home-hero__decor" aria-hidden="true">
@@ -36,14 +32,14 @@ redirect_from:
       </p>
       <div class="home-actions" aria-label="Primary links" data-reveal style="--reveal-delay: 350ms">
         <a class="home-button home-button--primary" href="#publications">View publications</a>
-        <a class="home-button" href="mailto:{{ site.author.email }}">Email</a>
-        <a class="home-button" href="https://github.com/{{ site.author.github }}">GitHub</a>
+        <a class="home-button" href="mailto:mowt@pku.edu.cn">Email</a>
+        <a class="home-button" href="https://github.com/matthewdm0816">GitHub</a>
         <a class="home-button" href="https://x.com/Kagurazaka_L">X</a>
       </div>
     </div>
 
     <aside class="home-profile" aria-label="Quick profile" data-reveal="right" style="--reveal-delay: 140ms">
-      <img src="{{ site.author.avatar }}" alt="Portrait of Wentao Mo" loading="eager">
+      <img src="https://avatars.githubusercontent.com/u/2143312" alt="Portrait of Wentao Mo" loading="eager">
       <div>
         <strong>Research Focus</strong>
         <span>3D vision, language grounding, and multimodal reasoning</span>
@@ -171,13 +167,13 @@ redirect_from:
       <h2>Open to research conversations and collaboration.</h2>
     </div>
     <div class="home-contact__links">
-      <a href="mailto:{{ site.author.email }}">
+      <a href="mailto:mowt@pku.edu.cn">
         <span class="home-contact__icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
-        <span>{{ site.author.email }}</span>
+        <span>mowt@pku.edu.cn</span>
       </a>
-      <a href="https://github.com/{{ site.author.github }}">
+      <a href="https://github.com/matthewdm0816">
         <span class="home-contact__icon"><i class="fab fa-github" aria-hidden="true"></i></span>
-        <span>github.com/{{ site.author.github }}</span>
+        <span>github.com/matthewdm0816</span>
       </a>
       <a href="https://x.com/Kagurazaka_L">
         <span class="home-contact__icon"><i class="fab fa-x-twitter" aria-hidden="true"></i></span>
@@ -186,5 +182,7 @@ redirect_from:
     </div>
   </section>
 
-  <script src="{{ base_path }}/assets/js/home.js" defer></script>
+  <script src="/assets/js/home.js" defer></script>
 </main>
+</body>
+</html>

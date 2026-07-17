@@ -2,6 +2,8 @@
 
 <!-- start custom head snippets -->
 
+<link rel="preconnect" href="https://avatars.githubusercontent.com" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 <link rel="apple-touch-icon" href="{{ base_path }}/images/mstile-150x150.png?v=M44lzPylqQ">
 <link rel="icon" href="{{ base_path }}/images/favicon.ico?v=M44lzPylqQ">
 <link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">
@@ -10,10 +12,11 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#f8f4ed">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 {% if page.homepage %}
 <link rel="stylesheet" href="{{ base_path }}/assets/css/home.css"/>
+<link rel="preload" as="image" href="{{ site.author.avatar }}">
 {% endif %}
 
 
