@@ -57,8 +57,7 @@ redirect_from:
 
   <section id="research" class="home-section" aria-labelledby="research-title">
     <div class="home-section__header" data-reveal>
-      <span class="section-index" aria-hidden="true">01</span>
-      <p class="home-eyebrow">Research</p>
+      <p class="home-eyebrow"><span class="section-index" aria-hidden="true">01</span>Research</p>
       <h2 id="research-title">Building blocks for visual reasoning</h2>
     </div>
     <div class="home-focus-grid">
@@ -100,8 +99,7 @@ redirect_from:
 
   <section id="publications" class="home-section" aria-labelledby="publications-title">
     <div class="home-section__header" data-reveal>
-      <span class="section-index" aria-hidden="true">02</span>
-      <p class="home-eyebrow">Publications</p>
+      <p class="home-eyebrow"><span class="section-index" aria-hidden="true">02</span>Publications</p>
       <h2 id="publications-title">Selected work</h2>
     </div>
 
@@ -166,8 +164,7 @@ redirect_from:
 
   <section id="contact" class="home-contact" aria-label="Contact information" data-reveal>
     <div>
-      <span class="section-index" aria-hidden="true">03</span>
-      <p class="home-eyebrow">Contact</p>
+      <p class="home-eyebrow"><span class="section-index" aria-hidden="true">03</span>Contact</p>
       <h2>Open to research conversations and collaboration.</h2>
     </div>
     <div class="home-contact__links">
