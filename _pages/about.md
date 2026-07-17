@@ -55,51 +55,9 @@ redirect_from:
     </aside>
   </section>
 
-  <section id="research" class="home-section" aria-labelledby="research-title">
-    <div class="home-section__header" data-reveal>
-      <p class="home-eyebrow"><span class="section-index" aria-hidden="true">01</span>Research</p>
-    </div>
-    <div class="home-focus-grid">
-      <article data-reveal style="--reveal-delay: 0ms">
-        <span class="focus-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-            <circle cx="9" cy="10" r="4.5" />
-            <circle cx="15" cy="10" r="4.5" />
-            <circle cx="12" cy="14.5" r="4.5" />
-          </svg>
-        </span>
-        <h3>Multimodal Learning</h3>
-        <p>Distilling verified neuro-symbolic programs into natural-language reasoning, so 3D MLLMs can show how they think.</p>
-      </article>
-      <article data-reveal style="--reveal-delay: 70ms">
-        <span class="focus-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6z" />
-            <circle cx="12" cy="12" r="3" />
-          </svg>
-        </span>
-        <h3>Computer Vision</h3>
-        <p>Fusing 2D visual priors with 3D geometry for scene understanding and practical question answering.</p>
-      </article>
-      <article data-reveal style="--reveal-delay: 140ms">
-        <span class="focus-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-            <path d="M12 20V7" />
-            <path d="M12 20l7-4" />
-            <path d="M12 20l-7-4" />
-            <circle cx="16.5" cy="8.5" r="1.8" />
-          </svg>
-        </span>
-        <h3>Embodied AI</h3>
-        <p>Building multi-view evaluations and pre-training data that ground agents in 3D environments.</p>
-      </article>
-    </div>
-    <p class="home-section__tagline" id="research-title" data-reveal style="--reveal-delay: 210ms">From 3D perception to grounded reasoning</p>
-  </section>
-
   <section id="publications" class="home-section" aria-labelledby="publications-title">
     <div class="home-section__header" data-reveal>
-      <p class="home-eyebrow"><span class="section-index" aria-hidden="true">02</span>Publications</p>
+      <p class="home-eyebrow"><span class="section-index" aria-hidden="true">01</span>Publications</p>
       <h2 id="publications-title">Selected work</h2>
     </div>
 
@@ -160,6 +118,51 @@ redirect_from:
         </div>
       </article>
     </div>
+  </section>
+
+  <section id="research" class="home-section" aria-labelledby="research-title">
+    <div class="home-section__header" data-reveal>
+      <p class="home-eyebrow"><span class="section-index" aria-hidden="true">02</span>Research</p>
+    </div>
+    <div class="home-focus-grid">
+      <article data-reveal style="--reveal-delay: 0ms">
+        <span class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="9" cy="10" r="4.5" />
+            <circle cx="15" cy="10" r="4.5" />
+            <circle cx="12" cy="14.5" r="4.5" />
+          </svg>
+        </span>
+        <h3>3D Vision-Language Learning</h3>
+        <p>Fusing 2D visual priors with 3D geometry for scene understanding and practical question answering.</p>
+      </article>
+      <article data-reveal style="--reveal-delay: 70ms">
+        <span class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M12 20V7" />
+            <path d="M12 20l7-4" />
+            <path d="M12 20l-7-4" />
+            <circle cx="16.5" cy="8.5" r="1.8" />
+          </svg>
+        </span>
+        <h3>3D Pre-training &amp; Evaluation</h3>
+        <p>Building multi-view evaluations and pre-training data that ground models in 3D environments.</p>
+      </article>
+      <article data-reveal style="--reveal-delay: 140ms">
+        <span class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="5" cy="19" r="2.2" />
+            <circle cx="12" cy="12" r="2.2" />
+            <circle cx="19" cy="5" r="2.2" />
+            <path d="M6.6 17.4l3.8-3.8" />
+            <path d="M13.6 10.4l3.8-3.8" />
+          </svg>
+        </span>
+        <h3>Neuro-Symbolic 3D Reasoning</h3>
+        <p>Distilling verified neuro-symbolic programs into natural-language reasoning, so 3D MLLMs can show how they think.</p>
+      </article>
+    </div>
+    <p class="home-section__tagline" id="research-title" data-reveal style="--reveal-delay: 210ms">From 3D perception to grounded reasoning</p>
   </section>
 
   <section id="contact" class="home-contact" aria-label="Contact information" data-reveal>
