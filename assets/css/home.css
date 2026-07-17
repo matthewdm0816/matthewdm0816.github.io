@@ -393,6 +393,18 @@ html {
   letter-spacing: 0.1em;
 }
 
+/* Closing statement after the research focus grid */
+.home-section__tagline {
+  max-width: 720px;
+  margin: 44px 0 0;
+  color: var(--ink-deep);
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
 /* --------------------------------------------------------------------------
    Research focus cards
    -------------------------------------------------------------------------- */

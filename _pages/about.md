@@ -58,7 +58,6 @@ redirect_from:
   <section id="research" class="home-section" aria-labelledby="research-title">
     <div class="home-section__header" data-reveal>
       <p class="home-eyebrow"><span class="section-index" aria-hidden="true">01</span>Research</p>
-      <h2 id="research-title">Building blocks for visual reasoning</h2>
     </div>
     <div class="home-focus-grid">
       <article data-reveal style="--reveal-delay: 0ms">
@@ -70,7 +69,7 @@ redirect_from:
           </svg>
         </span>
         <h3>Multimodal Learning</h3>
-        <p>Connecting visual, textual, and spatial signals so models can answer richer questions about scenes.</p>
+        <p>Distilling verified neuro-symbolic programs into natural-language reasoning, so 3D MLLMs can show how they think.</p>
       </article>
       <article data-reveal style="--reveal-delay: 70ms">
         <span class="focus-icon">
@@ -80,7 +79,7 @@ redirect_from:
           </svg>
         </span>
         <h3>Computer Vision</h3>
-        <p>Studying 2D and 3D scene understanding with an emphasis on practical visual question answering.</p>
+        <p>Fusing 2D visual priors with 3D geometry for scene understanding and practical question answering.</p>
       </article>
       <article data-reveal style="--reveal-delay: 140ms">
         <span class="focus-icon">
@@ -92,9 +91,10 @@ redirect_from:
           </svg>
         </span>
         <h3>Embodied AI</h3>
-        <p>Designing evaluation and pre-training resources that help agents reason in grounded environments.</p>
+        <p>Building multi-view evaluations and pre-training data that ground agents in 3D environments.</p>
       </article>
     </div>
+    <p class="home-section__tagline" id="research-title" data-reveal style="--reveal-delay: 210ms">From 3D perception to grounded reasoning</p>
   </section>
 
   <section id="publications" class="home-section" aria-labelledby="publications-title">
